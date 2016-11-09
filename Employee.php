@@ -1,6 +1,6 @@
 <?php
 
-public class Employee extends Person
+class Employee extends Person
 {
     public $profile;
     
@@ -12,10 +12,11 @@ public class Employee extends Person
     
     public function toString()
     {
-        parent::toString;
+        parent::toString();
         echo "<br><strong>profilo: </strong>" . $this->profile; 
     }
-            
+
+    //aggiungere un metodo statico factory che valorizza $profile
 }
 
 
