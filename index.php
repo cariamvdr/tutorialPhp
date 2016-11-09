@@ -11,5 +11,4 @@ $pietro->toString_age();
 $davide->toString();
 
 $gianluca = new Employee("Gianluca",24,"Ingegnere");
-$gianluca->toString;
-?>
+$gianluca->toString();
